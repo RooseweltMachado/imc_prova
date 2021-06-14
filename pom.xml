@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.unit.web</groupId>
-	<artifactId>exercicio2</artifactId>
+	<artifactId>imc_prova</artifactId>
 	<version>beta</version>
-	<name>WebExercicio2</name>
-	<description>API do exercicio 2</description>
+	<name>imc_prova</name>
+	<description>API da prova</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
