@@ -13,7 +13,6 @@ public class TodoController {
 	@GetMapping("/imc/{altura}/{peso}")
 	public String calculoIMC(@PathVariable ("altura") double altura, @PathVariable ("peso") double peso){
 		double imc = peso / (altura * altura);
-		
 		if(imc < 18.5) {
 			return "Seu IMC " + imc + "\n Classificação: Abaixo do peso" + "\n Risco para a saúde: Elevado";
 		}
